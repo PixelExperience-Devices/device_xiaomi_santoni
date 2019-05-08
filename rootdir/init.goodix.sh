@@ -27,6 +27,9 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-if [ ! -f /data/system/users/0/settings_fingerprint.xml ]; then
-    rm -rf /mnt/vendor/persist/data/gxfp/0_0
+fpdb=/data/system/users/0/settings_fingerprint.xml
+gxdb=/mnt/vendor/persist/data/gxfp/0_0
+
+if [ ! -f $fpdb ] || ! grep "fingerId" $fpdb > /dev/null; then
+    rm -rf $gxdb
 fi
