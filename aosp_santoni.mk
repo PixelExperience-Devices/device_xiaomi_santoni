@@ -20,17 +20,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AEX stuff
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
+
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_santoni
+PRODUCT_NAME := aosp_santoni
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -40,3 +42,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="santoni-user 7.1.2 N2G47H V9.5.10.0.NAMMIFD release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/santoni/santoni:7.1.2/N2G47H/V9.5.10.0.NAMMIFD:user/release-keys
+
+# Set this flag in build script
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
+# Use Gapps
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+endif
