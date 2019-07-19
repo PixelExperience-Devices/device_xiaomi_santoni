@@ -7,9 +7,9 @@
   },
   {
     "remote"     : "github",
-    "repository" : "HarukeyUA/android_kernel_xiaomi_santoni",
+    "repository" : "ProtoChuz/everest_caf",
     "target_path": "kernel/xiaomi/msm8937",
-    "branch"     : "DarkPhoenix-60fps"
+    "branch"     : "EAS"
   },
   {
     "remote"     : "github",
