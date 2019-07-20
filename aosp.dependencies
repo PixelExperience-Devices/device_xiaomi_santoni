@@ -7,7 +7,7 @@
   },
   {
     "remote"     : "github",
-    "repository" : "Quantisers/project_kernel_WolfKernel
+    "repository" : "Quantisers/project_kernel_WolfKernel",
     "target_path": "kernel/xiaomi/msm8937",
     "branch"     : "non-treble"
   },
