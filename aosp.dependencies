@@ -7,9 +7,9 @@
   },
   {
     "remote"     : "github",
-    "repository" : "ProtoChuz/everest_caf",
+    "repository" : "Quantisers/project_kernel_WolfKernel
     "target_path": "kernel/xiaomi/msm8937",
-    "branch"     : "EAS"
+    "branch"     : "non-treble"
   },
   {
     "remote"     : "github",
