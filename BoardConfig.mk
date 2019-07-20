@@ -28,7 +28,7 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_TS_MAKEUP := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := santoni_nontreble_defconfig
+TARGET_KERNEL_CONFIG := santoni_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB         := libinit_santoni
