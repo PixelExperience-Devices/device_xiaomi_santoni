@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2020 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,12 +17,12 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
+# Installs GSI keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
-#HAls
+# HALs
 PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/display
 PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/audio
 PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/media
@@ -307,7 +308,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
-	
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     $(LOCAL_PATH)/configs/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
@@ -496,15 +497,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Wallpapers
-ifeq ($(WITH_GAPPS),true)
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
-endif
 
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
    WfdCommon
 
-#XiaomiParts
+# XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
