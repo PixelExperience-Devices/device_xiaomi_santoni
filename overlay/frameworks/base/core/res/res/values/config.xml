@@ -477,11 +477,6 @@
 
     <!-- Button backlight -->
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
-	
-    <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
-         manually by the user. Off by default, since the expected haptic feedback may not be
-         available on some devices. -->
-    <bool name="config_enableHapticTextHandle">true</bool>
 
     <!-- The component name, flattened to a string, for the default autofill service to  enabled for an user.
 	 This service must be trusted, as it can be activated without explicit consent of the user. If no
