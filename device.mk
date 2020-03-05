@@ -153,6 +153,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
+	
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libldacBT_dec
 
 # Camera
 PRODUCT_PACKAGES += \
