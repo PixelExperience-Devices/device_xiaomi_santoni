@@ -94,6 +94,9 @@ static void check_device(dalvikprop_t* dprop) {
         dprop->heapsize = "512m";
         dprop->heapminfree = "2m";
         dprop->heapmaxfree = "8m";
+		
+        // Enable low ram flag
+        property_set("ro.config.low_ram", "true");
    }
 }
 
