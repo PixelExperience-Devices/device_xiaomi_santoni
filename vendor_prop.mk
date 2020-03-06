@@ -243,6 +243,7 @@ persist.radio.VT_ENABLE=1 \
 persist.radio.VT_HYBRID_ENABLE=1 \
 persist.vendor.radio.aosp_usr_pref_sel=true \
 persist.vendor.radio.apm_sim_not_pwdn=1 \
+persist.vendor.radio.multisim_switch_support=true \
 persist.radio.DROPSETENABLE=1 \
 persist.radio.force_on_dc=true \
 persist.radio.ignore_dom_time=5 \
