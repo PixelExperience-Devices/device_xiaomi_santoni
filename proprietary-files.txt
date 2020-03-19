@@ -1547,16 +1547,19 @@ etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:vendor/etc/qdcm_calib_data_il
 etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml
 
 # Fingerprint
-bin/gx_fpcmd:vendor/bin/gx_fpcmd
-bin/gx_fpd:vendor/bin/gx_fpd
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_santoni|cf73241facae5e4a7ad092f2cda0f8e00c2f5bd9
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_santoni.rc|ca3e82bfcf617bafe46c47af3e4d44c1da18fabb
+bin/gx_fpcmd:vendor/bin/gx_fpcmd|34f5f636b42bc5d6f464aa6df0321c155d30bb3d
+bin/gx_fpd:vendor/bin/gx_fpd|d6b4fe7fbdbd5550d044f37eb98ba4d6c4a1f04f
 lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|68839c6a06b986223fa37341f4b52117a72afe68
 lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so
 lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|8ebf8f6bc370cec26cfcf1daebdbbb31fd66ae09
-lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|c3034eba5df5fb9f52438effcdddfb4af113c8b7
+lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|b317ba89f9eaec76807cde966b1fbeef0de8bb1a
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
+vendor/lib64/libbindergx.so|eb676b92d13a7835aaab309d5c692151993e016f
 lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so
-lib64/libfp_client.so:vendor/lib64/libfp_client.so|fec40052b7cb14acb1e8edc6378583a075eb180a
-lib64/libfpservice.so:vendor/lib64/libfpservice.so|a95cf81ac9cb72de1d04c3cff72d19b8da0e5027
+lib64/libfp_client.so:vendor/lib64/libfp_client.so|d3a81cf170b9bf851cc072b35d66182e2a9338b9
+lib64/libfpservice.so:vendor/lib64/libfpservice.so|655051a6bfed4e26fb90562615875d7503bdfabf
 
 # Graphics firmware
 etc/firmware/a225p5_pm4.fw:vendor/firmware/a225p5_pm4.fw
