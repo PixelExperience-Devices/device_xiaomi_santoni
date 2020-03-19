@@ -1551,13 +1551,13 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_santoni
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_santoni.rc|ca3e82bfcf617bafe46c47af3e4d44c1da18fabb
 bin/gx_fpcmd:vendor/bin/gx_fpcmd|34f5f636b42bc5d6f464aa6df0321c155d30bb3d
 bin/gx_fpd:vendor/bin/gx_fpd|d6b4fe7fbdbd5550d044f37eb98ba4d6c4a1f04f
-lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|68839c6a06b986223fa37341f4b52117a72afe68
-lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|8ebf8f6bc370cec26cfcf1daebdbbb31fd66ae09
+lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|6d9cd9ae2e8c5c60637a87e77dd04b465c4cffaa
+lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so|42fe43a61e0f167aaad21a2542d706bd4de98ebc
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|28a7f4a29eb51c07956a9010bc037bb2a862e9d2
 lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|b317ba89f9eaec76807cde966b1fbeef0de8bb1a
-lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so|1039583b32e075d1818c0fe05c1e48d2ab4aee64
 vendor/lib64/libbindergx.so|eb676b92d13a7835aaab309d5c692151993e016f
-lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so
+lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so|b15b2e47f88bbbced62098acf9e38bc3e0caeddb
 lib64/libfp_client.so:vendor/lib64/libfp_client.so|d3a81cf170b9bf851cc072b35d66182e2a9338b9
 lib64/libfpservice.so:vendor/lib64/libfpservice.so|655051a6bfed4e26fb90562615875d7503bdfabf
 
