@@ -66,10 +66,10 @@ persist.vendor.qti.telephony.vt_cam_interface=2 \
 media.camera.ts.monotonic=1 \
 persist.camera.HAL3.enabled=1
 
-# Cne/Dpm
+# CNE/DPM
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.cne.feature=1 \
-persist.dpm.feature=1
+persist.vendor.dpm.feature=0 \
 persist.vendor.sys.cnd.iwlan=1 \
 
 # Coresight
