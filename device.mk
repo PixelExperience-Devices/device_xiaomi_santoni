@@ -505,8 +505,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
    WfdCommon
-
-# Perf Jars
-PRODUCT_BOOT_JARS += \
-   QPerformance \
-   UxPerformance
