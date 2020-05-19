@@ -470,6 +470,7 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|00b41ba2e3737041c536d7a3fe87739edb
 
 # QMI - from tissot-user-9-PKQ1.180917.001-V10.0.20.0.PDHMIXM-release-keys
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
+etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 lib/libdiag_system.so|96e00fb268257343bac8fa52f02aab5aa12a650e
 lib/libqmi_cci_system.so|a1adcd8bed76076be0a3678bdd55ec6f6eef8a7a
 lib64/libdiag_system.so|811c30efa526e8e3828b112487b1d203cca5ed6e
